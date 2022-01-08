@@ -1,0 +1,380 @@
+@mport url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Open+Sans:wght@400;600&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+main{
+    margin: 0 auto;
+    padding: 4rem 4rem;
+}
+
+
+img{
+    max-width: 100%;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 4rem;
+}
+.menu{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0; 
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.nav-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    align-items: center;
+}
+
+.nav-link,
+.nav-log{
+    text-decoration: none;
+    color: #3A3A3A;
+    text-transform: uppercase;
+    margin-left: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+.active, .nav-link:hover{
+    color: #004492;
+    font-weight: 600;
+}
+
+
+.hero{
+    background: linear-gradient(
+            rgba(0, 68, 146, 0.44),
+            rgba(0, 68, 146, 0.44)
+             ),
+            url(images/hero-caregiving-jobs.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;   
+    color: #fff;
+    padding: 4rem 4rem 8rem 4rem;
+}
+
+.hero img{
+    width: 100%;
+}
+
+.hero-btn{
+        background-color: #004492;
+        color: #fff;
+        padding: .5em .5em; 
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+
+h1{
+    line-height: 4.3rem;
+    font-size: 3.75rem;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+p{
+    line-height: 1.7rem;
+    font-size: 1.25rem;
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    color: #002E68;
+    font-family: 'Lora', serif;
+    font-size: 2.25rem;
+    padding-bottom: 2rem;
+}
+h3{
+    font-size: 1.9rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.caregiver h2,
+.services h2{
+    text-align: center;
+}
+.care-text p{
+    font-size: 1rem;
+}
+.care{
+    background-color: #004492;
+}
+.care-text{
+    color: #fff;
+    padding: 2rem;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.health img{
+    width: 100%;
+    object-fit: cover;
+}
+.health-link{
+    color: #004492;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #004492;
+}
+.link{
+    margin-top: 5rem;
+}
+.care-link{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #fff;
+}
+.care--text{
+    color: #4FDBD2;
+}
+.caregiver img{
+    width: 100%;
+    object-fit: cover;
+}
+span{
+    color: #004492;
+    font-size: 1.5rem;
+}
+.services,
+.caregiver,
+.blog-post{
+    padding: 5rem 0;
+}
+.badges{
+    box-shadow: 0px 4.64975px 8.13706px rgba(0, 0, 0, 0.25);
+    padding: 2rem 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+.badges a{
+    color: #004492;
+}
+
+.badges2{
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+    margin: 2rem;
+    padding: 0;
+    width: 100%;
+}
+.badges2 img{
+    width: 100%;
+}
+.badges2 a{
+    color: #004492;
+    border-bottom: 1px solid #004492;
+}
+.badges2-date{
+    font-size: 0.9rem;
+}
+.badges2-text{
+    padding: 1rem;
+}
+.badges2--text{
+    font-weight: 600;
+    line-height: 1.8rem;
+    width: 70%;
+}
+.blog{
+    color: #004492;
+    text-align: center;
+}
+footer{
+    background-color: #001A41;
+    color: #fff;
+    padding: 5rem;
+}
+.footer-items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.4rem;
+}
+.footer-link{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.footer-link:hover{
+    color: rgb(22, 138, 153);
+    font-weight: bold;
+}
+.footer-img-text{
+    font-size: 0.75rem;
+    margin-top: 4rem;
+    padding: 1rem;
+}
+.footer-logo{
+    padding-left: 0.5rem;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 1.9rem;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+
+  .fa-facebook, .fa-instagram, .fa-twitter, .fa-linkedin, .fa-apple{
+    color: white;
+  }
+  .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover{
+      color: rgb(22, 138, 153);
+  }
+  .apple{
+      width: 80%;
+      padding: 0.5rem;
+  }
+  .google-play{
+       width: 80%; 
+  }   
+   .nav-btn{
+    background-color: #49C255;
+    color: #fff;
+    padding: .3em .5em; 
+    text-transform: capitalize;
+}
+  
+@media screen and (min-width:800px) {
+    .nav-img{
+        width: 5%;
+    }
+    .nav-log{
+        display: none;
+    }
+  
+    #icon{
+        display: hidden;
+    }
+    
+    .nav-list{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    .row{
+        display: flex;
+    }
+    .health{
+        margin: 0 auto;
+    }
+    .health-img{
+        width: 50%;
+        object-fit: cover;
+    }
+    .health-text{
+        width: 30%;
+        margin-left: 6rem;
+    }
+    .care-text{
+        color: #fff;
+        width: 50%;
+        padding: 3rem;
+}
+.badges{
+    margin: auto;
+     width: 25%; 
+}
+.caregiver img{
+    width: 100%;
+}
+.hero-text{
+    width: 30%;
+}
+.footer-list{
+    width: 100%;
+}
+.footer-img{
+   right: 0;
+   padding: 0.5rem ;
+   width: 100%;
+}
+.footer-items li{
+    padding-bottom: 2rem;
+}
+.apple{
+    width: 40%;
+    
+}
+.google-play{
+    width: 45%;
+}
+
+}
+@media screen and (max-width:890px){
+    .nav-log{
+        display: inline;
+    }
+}
+@media screen and (max-width:890px) {
+    .nav-img{
+        width: 20%;
+    }
+    .nav-list{
+        display: block;
+        text-align: center;
+        width: 100%;
+        background-color: #fff;
+        top: 80px;
+        gap: 0;
+        left: -100%;
+        position: fixed;
+        transition: 0.3s;
+        padding: 2rem;
+    }
+    .nav-link,
+    .nav-log{
+        margin: 3rem 0;
+        font-size: 20px; 
+    }
+    .nav-list.active{
+        left: 0;
+    }
+    .nav-link:hover,
+    .nav-link:hover{
+        background-color: #4FDBD2;
+        font-weight: bold;
+    }
+    .nav-btn{
+        display: none;
+    }
+        
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .menu:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .menu:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .menu:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .footer-logo{
+        margin-top: 1rem;
+    }
+}
